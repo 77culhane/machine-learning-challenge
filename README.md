@@ -1,3 +1,10 @@
+# CONCLUSION:
+Logistic Regression Model produces a slightly higher score than the Support Vector Model:
+SVM: {'C': 1, 'gamma': 0.0001} 0.5012396393511814
+LGM: {'C': 1, 'penalty': 'l2'} 0.5319429991485893
+
+
+
 # Machine Learning Homework - Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
