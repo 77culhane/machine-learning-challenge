@@ -1,11 +1,15 @@
 # CONCLUSION:
-Logistic Regression Model produces a slightly higher score than the Support Vector Model:
+I ran an LRM and an SVM to attempt to classify the KOIs by their orbit duration, their stellar radii, their planetary radii, and their KOI duration (the duration of the planet's traversal  across the profile of its host star when viewed through a telescope).
+
+Neither model was especially successful at classifying the KOIs as Candidate, Confirmed, or False Positive, with both of them scoring only a little higher than a .5.
+
+But the Logistic Regression Model does produce a slightly higher score than the Support Vector Model:
 
 #### SVM: {'C': 1, 'gamma': 0.0001}
 #### SVM: 0.5012396393511814
 
-#### LGM: {'C': 1, 'penalty': 'l2'} 
-#### LGM: 0.5319429991485893
+#### LRM: {'C': 1, 'penalty': 'l2'} 
+#### LRM: 0.5319429991485893
 
 
 # Machine Learning Homework - Exoplanet Exploration
